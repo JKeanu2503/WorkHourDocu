@@ -1,0 +1,67 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.2 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.2">
+  <diagram name="Seite-1" id="gj0UOv4Z7Ay7HRyfnPYK">
+    <mxGraphModel dx="857" dy="348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TivU_ipqr672-r6Ru1ld-1" value="verwaltet" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TivU_ipqr672-r6Ru1ld-4" value="Arbeitszeit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TivU_ipqr672-r6Ru1ld-5" value="Account" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TivU_ipqr672-r6Ru1ld-6" value="Datum" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TivU_ipqr672-r6Ru1ld-7" value="Ende" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TivU_ipqr672-r6Ru1ld-8" value="Beginn" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TivU_ipqr672-r6Ru1ld-9" value="Pause" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TivU_ipqr672-r6Ru1ld-10" value="" style="endArrow=ERzeroToMany;html=1;rounded=0;endFill=0;" edge="1" parent="1" source="TivU_ipqr672-r6Ru1ld-1" target="TivU_ipqr672-r6Ru1ld-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="450" as="sourcePoint" />
+            <mxPoint x="290" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TivU_ipqr672-r6Ru1ld-11" value="" style="endArrow=ERmandOne;html=1;rounded=0;endFill=0;" edge="1" parent="1" source="TivU_ipqr672-r6Ru1ld-1" target="TivU_ipqr672-r6Ru1ld-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="350" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TivU_ipqr672-r6Ru1ld-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="TivU_ipqr672-r6Ru1ld-4" target="TivU_ipqr672-r6Ru1ld-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="380" as="sourcePoint" />
+            <mxPoint x="430" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TivU_ipqr672-r6Ru1ld-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="TivU_ipqr672-r6Ru1ld-4" target="TivU_ipqr672-r6Ru1ld-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TivU_ipqr672-r6Ru1ld-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="TivU_ipqr672-r6Ru1ld-4" target="TivU_ipqr672-r6Ru1ld-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TivU_ipqr672-r6Ru1ld-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="TivU_ipqr672-r6Ru1ld-4" target="TivU_ipqr672-r6Ru1ld-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="380" as="sourcePoint" />
+            <mxPoint x="460" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
