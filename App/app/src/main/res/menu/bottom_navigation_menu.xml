@@ -6,7 +6,7 @@
         android:icon="@drawable/icon_dashboard"
         android:title="@string/gui_BottomNavigationBar_Title_Dashboard"/>
     <item
-        android:id="@+id/gui_Page_Records"
+        android:id="@+id/gui_Page_List"
         android:enabled="true"
         android:icon="@drawable/icon_list"
         android:title="@string/gui_BottomNavigationBar_Title_List"/>
