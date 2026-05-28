@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WHD</string>
+
+    <!-- BottomNavigationBar-Strings -->
+    <string name="gui_BottomNavigationBar_Title_Dashboard">Dashboard</string>
+    <string name="gui_BottomNavigationBar_Title_List">Liste</string>
+</resources>
