@@ -6,13 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/gui_TextView"
-        android:layout_width="1000px"
-        android:layout_height="1000px"
-        android:textSize="100"
-        android:text="1000"/>
-
     <FrameLayout
         android:id="@+id/gui_FrameLayout"
         android:layout_width="match_parent"
