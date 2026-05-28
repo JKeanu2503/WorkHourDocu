@@ -24,17 +24,30 @@
             android:scaleType="fitCenter"
             android:background="@drawable/background_default_icon_design"/>
 
+        <ImageButton
+            android:id="@+id/gui_ImageButton_List_ToolBar_SortTime"
+            android:layout_width="@dimen/dimension_List_ToolBar_ViewSize"
+            android:layout_height="@dimen/dimension_List_ToolBar_ViewSize"
+            android:layout_toRightOf="@id/gui_ImageButton_List_ToolBar_SortDirection"
+
+            android:layout_marginLeft="@dimen/dimension_List_ToolBar_DefaultMargin"
+            android:layout_marginRight="@dimen/dimension_List_ToolBar_DefaultMargin"
+
+            android:src="@drawable/icon_clock"
+            android:scaleType="fitCenter"
+            android:background="@drawable/background_default_icon_design"/>
+
         <EditText
             android:id="@+id/gui_EditText_List_ToolBar_Search"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dimension_List_ToolBar_ViewSize"
             android:layout_toLeftOf="@id/gui_ImageButton_List_ToolBar_AddRecord"
+            android:layout_toRightOf="@id/gui_ImageButton_List_ToolBar_SortTime"
 
             android:layout_marginLeft="@dimen/dimension_List_ToolBar_DefaultMargin"
             android:layout_marginRight="@dimen/dimension_List_ToolBar_DefaultMargin"
 
-            android:background="@drawable/background_default_icon_design"
-
+            android:background="@drawable/background_default_icon_design"/>
 
         <ImageButton
             android:id="@+id/gui_ImageButton_List_ToolBar_AddRecord"
@@ -47,5 +60,11 @@
             android:background="@drawable/background_default_icon_design"/>
 
     </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/gui_RecycleView_ListElements"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/gui_RelativeLayout_List_ToolBar"/>
 
 </RelativeLayout>
