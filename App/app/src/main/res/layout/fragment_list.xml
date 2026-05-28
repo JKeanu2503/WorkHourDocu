@@ -5,4 +5,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <RelativeLayout
+        android:id="@+id/gui_RelativeLayout_List_ToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:orientation="horizontal"
+        android:background="@drawable/background_default_icon_design">
+
+        <ImageButton
+            android:id="@+id/gui_ImageButton_List_ToolBar_SortDirection"
+            android:layout_width="@dimen/dimension_List_ToolBar_ViewSize"
+            android:layout_height="@dimen/dimension_List_ToolBar_ViewSize"
+            android:layout_alignParentLeft="true"
+
+            android:src="@drawable/icon_arrow_up"
+            android:scaleType="fitCenter"
+            android:background="@drawable/background_default_icon_design"/>
+
+        <EditText
+            android:id="@+id/gui_EditText_List_ToolBar_Search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimension_List_ToolBar_ViewSize"
+            android:layout_toLeftOf="@id/gui_ImageButton_List_ToolBar_AddRecord"
+
+            android:layout_marginLeft="@dimen/dimension_List_ToolBar_DefaultMargin"
+            android:layout_marginRight="@dimen/dimension_List_ToolBar_DefaultMargin"
+
+            android:background="@drawable/background_default_icon_design"
+
+
+        <ImageButton
+            android:id="@+id/gui_ImageButton_List_ToolBar_AddRecord"
+            android:layout_width="@dimen/dimension_List_ToolBar_ViewSize"
+            android:layout_height="@dimen/dimension_List_ToolBar_ViewSize"
+            android:layout_alignParentRight="true"
+
+            android:src="@drawable/icon_plus"
+            android:scaleType="fitCenter"
+            android:background="@drawable/background_default_icon_design"/>
+
+    </RelativeLayout>
+
 </RelativeLayout>
