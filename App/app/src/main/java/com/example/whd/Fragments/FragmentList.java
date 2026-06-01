@@ -1,11 +1,14 @@
 package com.example.whd.Fragments;
 
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -74,7 +77,35 @@ public class FragmentList extends Fragment {
         this.gui_ImageButton_List_TopToolBar_SortDirection.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                
+                Toast.makeText(getContext(), "SortDirection", Toast.LENGTH_SHORT).show();
+            }
+        });
+        this.gui_ImageButton_List_TopToolBar_Time.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getContext(), "Time", Toast.LENGTH_SHORT).show();
+            }
+        });
+        this.gui_ImageButton_List_TopToolBar_Add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getContext(), "Add", Toast.LENGTH_SHORT).show();
+            }
+        });
+        this.gui_EditText_List_TopToolBar_Search.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+                Toast.makeText(getContext(), charSequence.toString(), Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+
             }
         });
     }
