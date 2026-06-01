@@ -1,4 +1,7 @@
 package com.example.whd.Fragments;
 
-public class FragmentList {
+import androidx.fragment.app.Fragment;
+
+public class FragmentList extends Fragment {
+
 }

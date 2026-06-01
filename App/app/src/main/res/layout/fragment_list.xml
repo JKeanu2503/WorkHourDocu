@@ -55,6 +55,8 @@
             android:layout_height="@dimen/dimension_List_ToolBar_ViewSize"
             android:layout_alignParentRight="true"
 
+            android:layout_marginLeft="@dimen/dimension_List_ToolBar_DefaultMargin"
+
             android:src="@drawable/icon_plus"
             android:scaleType="fitCenter"
             android:background="@drawable/background_default_icon_design"/>
