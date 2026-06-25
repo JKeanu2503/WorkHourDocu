@@ -4,4 +4,9 @@
     <!-- BottomNavigationBar-Strings -->
     <string name="gui_BottomNavigationBar_Title_Dashboard">Dashboard</string>
     <string name="gui_BottomNavigationBar_Title_List">Liste</string>
+    <string name="gui_BottomNavigationBar_Title_Schedule">Schichten</string>
+    <string name="gui_BottomNavigationBar_Title_Account">Benutzer</string>
+
+    <string name="gui_AddListItem_Title">Arbeitszeit hinzufügen</string>
+    <string name="gui_AddScheduleItem_Title">Schicht hinzufügen</string>
 </resources>

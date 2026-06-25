@@ -16,7 +16,7 @@
         android:id="@+id/gui_BottomNavigationView"
         android:layout_width="match_parent"
 
-        android:layout_height="70dp"
+        android:layout_height="@dimen/dimen_Height_BottomNavigationBar"
         android:layout_alignParentBottom="true"
 
         android:background="@color/colorPrimaryDark"

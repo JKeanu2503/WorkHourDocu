@@ -10,4 +10,14 @@
         android:enabled="true"
         android:icon="@drawable/icon_list"
         android:title="@string/gui_BottomNavigationBar_Title_List"/>
+    <item
+        android:id="@+id/gui_Page_Schedule"
+        android:enabled="true"
+        android:icon="@drawable/icon_schedule"
+        android:title="@string/gui_BottomNavigationBar_Title_Schedule"/>
+    <item
+        android:id="@+id/gui_Page_Account"
+        android:enabled="true"
+        android:icon="@drawable/icon_person"
+        android:title="@string/gui_BottomNavigationBar_Title_Account"/>
 </menu>

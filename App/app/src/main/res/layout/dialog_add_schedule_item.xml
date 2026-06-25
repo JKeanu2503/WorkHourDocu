@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/gui_TextView_AddRecord_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:gravity="center"
+        android:text="@string/gui_AddScheduleItem_Title"
+        android:textColor="@color/color_BLACK"
+        android:textSize="@dimen/dimen_TextSize_Default"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/gui_TextInputLayout_AddSchedule_DateStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:layout_marginRight="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:hint="Start-Datum">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/gui_TextInputEditText_AddSchedule_DateStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:clickable="true" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:layout_marginRight="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:layout_marginTop="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:text="Sollarbeitszeit pro Woche (in Stunden)" />
+
+    <EditText
+        android:id="@+id/gui_EditText_AddSchedule_TargetHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:layout_marginLeft="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:layout_marginTop="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:background="@drawable/background_default_icon_design"
+        android:textSize="25sp"
+        android:inputType="numberDecimal"/>
+
+</LinearLayout>

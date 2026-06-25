@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Text-Size -->
+    <dimen name="dimen_TextSize_Default">15sp</dimen>
+
+    <!-- General dimens -->
+    <dimen name="dimen_Height_BottomNavigationBar">70dp</dimen>
+    <dimen name="dimen_Margin_ElementEdge_Default">1dp</dimen>
+    <dimen name="dimen_Margin_ElementDistance_Default">5dp</dimen>
+    <dimen name="dimen_Margin_ElementDistance_EdgeDefault">15dp</dimen>
+
+    <!-- Dashboard-Fragment dimens -->
+    <dimen name="dimen_ImageSize_Dashboard_Default">60dp</dimen>
+    <dimen name="dimen_ImageSize_Dashboard_DataObjectCounts">50dp</dimen>
+
+    <dimen name="dimen_TextSize_Dashboard_Element_Title">20sp</dimen>
+    <dimen name="dimen_TextSize_Dashboard_Element_Value">25sp</dimen>
+    <dimen name="dimen_TextSize_Dashboard_Element_Value_Small">20sp</dimen>
+
     <!-- List ToolBar Dimensions -->
     <dimen name="dimension_List_ToolBar_ViewSize">40dp</dimen>
-    <dimen name="dimension_List_ToolBar_DefaultMargin">5dp</dimen>
+    <dimen name="dimension_ToolBar_DefaultMargin">5dp</dimen>
+
+    <!-- List ItemList Dimensions -->
+    <dimen name="dimension_List_ItemList_DefaultMargin">5dp</dimen>
+    <dimen name="dimension_List_ItemListElement_DefaultMargin">10dp</dimen>
+
+    <!-- Account Dimensions -->
+    <dimen name="dimension_Account_Default_ViewSize">35dp</dimen>
+
 
 </resources>

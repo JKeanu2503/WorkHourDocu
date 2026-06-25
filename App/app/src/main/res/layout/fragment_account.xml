@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/gui_TextView_Account_UsernameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Benutzername:"
+        android:textSize="15sp"
+
+        android:layout_marginLeft="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:layout_marginTop="@dimen/dimen_Margin_ElementDistance_EdgeDefault"/>
+
+    <LinearLayout
+        android:id="@+id/gui_LinearLayout_Account_UsernameGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center_vertical"
+
+        android:layout_below="@id/gui_TextView_Account_UsernameTitle"
+        android:layout_marginTop="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:layout_marginLeft="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:layout_marginRight="@dimen/dimen_Margin_ElementDistance_EdgeDefault">
+
+        <EditText
+            android:id="@+id/gui_EditText_Account_Username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Benutzername"
+
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+
+            android:background="@drawable/background_default_icon_design"/>
+
+        <ImageButton
+            android:id="@+id/gui_ImageButton_Account_UserNameConfirm"
+            android:layout_width="@dimen/dimension_Account_Default_ViewSize"
+            android:layout_height="@dimen/dimension_Account_Default_ViewSize"
+
+            android:src="@drawable/icon_check"
+            android:scaleType="fitCenter"
+            android:background="@drawable/background_default_icon_design"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/gui_TextView_Account_ChangePasswordTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Passwort ändern:"
+        android:textSize="15sp"
+
+        android:layout_marginLeft="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:layout_marginTop="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+
+        android:layout_below="@id/gui_LinearLayout_Account_UsernameGroup"/>
+
+    <EditText
+        android:id="@+id/gui_EditText_Account_ChangePW_OldPW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Altes Passwort"
+
+        android:background="@drawable/background_default_icon_design"
+
+        android:layout_below="@id/gui_TextView_Account_ChangePasswordTitle"
+        android:layout_marginTop="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:layout_marginLeft="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:layout_marginRight="@dimen/dimen_Margin_ElementDistance_EdgeDefault"/>
+
+    <EditText
+        android:id="@+id/gui_EditText_Account_ChangePW_NewPW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Neues Passwort"
+
+        android:background="@drawable/background_default_icon_design"
+
+        android:layout_below="@id/gui_EditText_Account_ChangePW_OldPW"
+        android:layout_marginTop="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:layout_marginLeft="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:layout_marginRight="@dimen/dimen_Margin_ElementDistance_EdgeDefault"/>
+
+    <EditText
+        android:id="@+id/gui_EditText_Account_ChangePW_ConfirmNewPW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bestätige Neues Passwort"
+
+        android:background="@drawable/background_default_icon_design"
+
+        android:layout_below="@id/gui_EditText_Account_ChangePW_NewPW"
+        android:layout_marginTop="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:layout_marginLeft="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:layout_marginRight="@dimen/dimen_Margin_ElementDistance_EdgeDefault"/>
+
+    <ImageButton
+        android:id="@+id/gui_ImageButton_Account_ConfirmNewPassword"
+        android:layout_width="@dimen/dimension_Account_Default_ViewSize"
+        android:layout_height="@dimen/dimension_Account_Default_ViewSize"
+
+        android:layout_below="@id/gui_EditText_Account_ChangePW_ConfirmNewPW"
+        android:layout_marginTop="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:layout_centerHorizontal="true"
+
+        android:src="@drawable/icon_check"
+        android:scaleType="fitCenter"
+        android:background="@drawable/background_default_icon_design"/>
+
+    <ImageButton
+        android:id="@+id/gui_ImageButton_Account_LogOut"
+        android:layout_width="@dimen/dimension_Account_Default_ViewSize"
+        android:layout_height="@dimen/dimension_Account_Default_ViewSize"
+
+
+        android:layout_marginLeft="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:layout_marginBottom="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+
+        android:src="@drawable/icon_logout"
+        android:scaleType="fitCenter"
+        android:background="@drawable/background_default_icon_design"/>
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/gui_TextView_LogIn_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Log In:"
+        android:textSize="45sp"
+        android:textColor="@color/color_BLACK"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/gui_EditText_LogIn_Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="25dp"
+
+        android:background="@drawable/background_default_icon_design"
+        android:textSize="25sp"
+        android:hint="Benutzername"
+
+        android:layout_below="@id/gui_TextView_LogIn_Title"/>
+
+    <EditText
+        android:id="@+id/gui_EditText_LogIn_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="25dp"
+
+        android:background="@drawable/background_default_icon_design"
+        android:textSize="25sp"
+        android:hint="Passwort"
+
+        android:layout_below="@id/gui_EditText_LogIn_Username"/>
+
+    <ImageButton
+        android:id="@+id/gui_ImageButton_LogIn_Confirm"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="25dp"
+
+        android:background="@drawable/background_default_icon_design"
+        android:src="@drawable/icon_check"
+        android:scaleType="fitCenter"
+
+        android:layout_below="@id/gui_EditText_LogIn_Password"/>
+
+</RelativeLayout>

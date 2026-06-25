@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_margin="@dimen/dimen_Margin_ElementEdge_Default"
+    android:background="@drawable/background_default_icon_design">
+
+    <TextView
+        android:id="@+id/gui_TextView_List_ListItem_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="@dimen/dimen_TextSize_Default"
+        android:textColor="@color/color_BLUE"
+        android:text="#000000"
+
+        android:layout_alignParentLeft="true"/>
+
+    <LinearLayout
+        android:id="@+id/gui_LinearLayout_List_ListItem_TimeBlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+
+        android:layout_marginLeft="@dimen/dimension_List_ItemList_DefaultMargin"
+        android:layout_marginRight="@dimen/dimension_List_ItemList_DefaultMargin"
+
+        android:layout_toRightOf="@id/gui_TextView_List_ListItem_ID">
+
+        <TextView
+            android:id="@+id/gui_TextView_List_ListItem_TimeStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="@dimen/dimen_TextSize_Default"
+            android:textColor="@color/color_BLACK"
+            android:text="#000000"/>
+
+        <TextView
+            android:id="@+id/gui_TextView_List_ListItem_TimeEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="@dimen/dimen_TextSize_Default"
+            android:textColor="@color/color_BLACK"
+            android:text="#000000"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/gui_TextView_List_ListItem_BreakMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="@dimen/dimen_TextSize_Default"
+        android:textColor="@color/color_LIGHT_ORANGE"
+        android:text="#000000"/>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/gui_TextView_UpdateRecord_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:gravity="center"
+        android:text="Arbeitszeit aktualisieren"
+        android:textColor="@color/color_BLACK"
+        android:textSize="@dimen/dimen_TextSize_Default"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/gui_TextInputLayout_UpdateDateStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:layout_marginRight="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:hint="Start-Datum">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/gui_TextInputEditText_UpdateDateStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:clickable="true" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/gui_TextInputLayout_UpdateTimeStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:layout_marginRight="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:layout_marginTop="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:hint="Start-Zeit">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/gui_TextInputEditText_UpdateTimeStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/gui_TextInputLayout_UpdateDateEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:layout_marginRight="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:layout_marginTop="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:hint="End-Datum">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/gui_TextInputEditText_UpdateDateEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/gui_TextInputLayout_UpdateTimeEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:layout_marginRight="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:layout_marginTop="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:hint="End-Zeit">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/gui_TextInputEditText_UpdateTimeEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:layout_marginRight="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:layout_marginTop="@dimen/dimension_List_ItemListElement_DefaultMargin"
+        android:text="Pause (in Minuten)" />
+
+    <EditText
+        android:id="@+id/gui_EditText_addListItem_UpdateBreakMinutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:layout_marginLeft="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:layout_marginTop="@dimen/dimen_Margin_ElementDistance_EdgeDefault"
+        android:background="@drawable/background_default_icon_design"
+        android:textSize="25sp"
+        android:inputType="numberSigned"/>
+
+</LinearLayout>
